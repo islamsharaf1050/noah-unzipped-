@@ -1,0 +1,153 @@
+/* NOAH — brand styling for Login / Register / My Account (light palette, matches homepage) */
+
+:root {
+    --noah-navy: #1B2430;
+    --noah-gold: #C9A467;
+    --noah-cream: #F2E9DC;
+    --noah-text: #20242C;
+}
+
+.woocommerce-account {
+    background: var(--noah-cream);
+    padding: 20px 0 1px;
+}
+
+.woocommerce-account .woocommerce {
+    max-width: 480px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E5DCC8;
+    border-radius: 10px;
+    color: var(--noah-text);
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    max-width: 1000px;
+    margin: 40px auto 0;
+    background: var(--noah-navy);
+    border-radius: 10px 10px 0 0;
+    padding: 0;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+    margin: 0;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+    display: block;
+    padding: 18px 16px;
+    color: #E7E1D3;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-bottom: 3px solid transparent;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover {
+    color: var(--noah-gold);
+    border-bottom-color: var(--noah-gold);
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+    max-width: 1000px;
+    margin: 0 auto 60px;
+    background: #FFFFFF;
+    padding: 40px;
+    border: 1px solid #E5DCC8;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    color: var(--noah-text);
+}
+
+.woocommerce-account .woocommerce-form-row label,
+.woocommerce-account form label {
+    color: inherit;
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.woocommerce-account .woocommerce form .input-text,
+.woocommerce-account .woocommerce form select,
+.woocommerce-account .woocommerce-MyAccount-content input[type="text"],
+.woocommerce-account .woocommerce-MyAccount-content input[type="email"],
+.woocommerce-account .woocommerce-MyAccount-content input[type="password"],
+.woocommerce-account .woocommerce-MyAccount-content input[type="tel"],
+.woocommerce-account .woocommerce-MyAccount-content select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #D8CFBC;
+    border-radius: 4px;
+    background: var(--noah-cream);
+    color: var(--noah-text);
+    margin-bottom: 16px;
+}
+
+.woocommerce-account .woocommerce button.button,
+.woocommerce-account .woocommerce-MyAccount-content .button,
+.woocommerce-account input.button {
+    background: var(--noah-gold) !important;
+    color: var(--noah-navy) !important;
+    border: none !important;
+    padding: 12px 28px !important;
+    border-radius: 4px !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.woocommerce-account .woocommerce button.button:hover,
+.woocommerce-account input.button:hover {
+    background: #B8863A !important;
+}
+
+.woocommerce-account .woocommerce-orders-table,
+.woocommerce-account table.shop_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+.woocommerce-account .woocommerce-orders-table th,
+.woocommerce-account table.shop_table th {
+    text-align: left;
+    padding: 10px;
+    background: var(--noah-navy);
+    color: #F4EFE6;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.woocommerce-account .woocommerce-orders-table td,
+.woocommerce-account table.shop_table td {
+    padding: 10px;
+    border-bottom: 1px solid #EEE6D6;
+    font-size: 14px;
+}
+
+.woocommerce-account .woocommerce-error,
+.woocommerce-account .woocommerce-message,
+.woocommerce-account .woocommerce-info {
+    border-top-color: var(--noah-gold);
+    background: #FFFFFF;
+    color: var(--noah-text);
+    padding: 14px 20px;
+    border-radius: 4px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.woocommerce-account a {
+    color: var(--noah-gold);
+}
